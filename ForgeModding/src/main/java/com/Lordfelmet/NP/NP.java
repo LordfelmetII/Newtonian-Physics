@@ -1,4 +1,5 @@
-package java.com.Lordfelmet.NP;
+package com.Lordfelmet.NP;
+
 
 import java.reference.Reference;
 import cpw.mods.fml.common.Mod;
