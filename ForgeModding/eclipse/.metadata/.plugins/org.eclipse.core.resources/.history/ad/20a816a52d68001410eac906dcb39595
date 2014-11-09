@@ -1,0 +1,34 @@
+package NewtonianPhysics.java.com.Lordfelmet.NewtonianPhysics;
+
+import NewtonianPhysics.java.com.Lordfelmet.NewtonianPhysics.reference.Reference;
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.Mod.Instance;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+
+@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, certificateFingerprint = Reference.FINGERPRINT, guiFactory = Reference.GUI_FACTORY_CLASS)
+public class NewtonianPhysics 
+{
+
+	@Instance(Reference.MOD_ID)
+	public static NewtonianPhysics instance;
+	
+	@EventHandler()
+	public void preInit(FMLPreInitializationEvent event)
+	{
+		System.out.println("pre-initializing Newtonian Physics");
+	}
+	@EventHandler()
+	public void init(FMLInitializationEvent event)
+	{
+		System.out.println("initializing Newtonian Physics");
+	}
+	@EventHandler()
+	public void postInit(FMLPostInitializationEvent event)
+	{
+		System.out.println("post-initializing Newtonian Physics");
+	}
+	
+}

@@ -1,0 +1,8 @@
+package com.Lordfelmet.NewtonianPhysics;
+
+import cpw.mods.fml.common.Mod;
+
+@Mod(modid = "Newtion")
+public class NewtonianPhysics {
+
+}
