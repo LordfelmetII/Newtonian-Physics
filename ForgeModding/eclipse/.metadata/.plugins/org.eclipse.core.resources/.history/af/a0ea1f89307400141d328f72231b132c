@@ -1,0 +1,8 @@
+package com.Lordfelmet.NP.TileEntities;
+
+import net.minecraft.tileentity.TileEntity;
+
+public class TileEntityTest1 extends TileEntity {
+
+}
+//You can't go wrong here. This is literally all you need unless you add any functionality.

@@ -1,0 +1,5 @@
+package com.Lordfelmet.NP.TileEntities.Models;
+
+public class TileEntityTest1Model {
+
+}

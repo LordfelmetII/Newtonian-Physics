@@ -1,0 +1,47 @@
+package com.Lordfelmet.NP;
+
+
+import java.reference.Reference;
+
+import com.Lordfelmet.Client.ClientProxy;
+import com.Lordfelmet.Client.CommonProxy;
+import com.Lordfelmet.NP.TileEntities.TileEntityTest1;
+
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.SidedProxy;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
+
+@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
+public class NP
+{
+	  @SidedProxy(clientSide="com.Lordfelmet.Proxies.ClientProxy", serverSide="com.Lordfelmet.Proxies.CommonProxy")
+      public static ClientProxy proxy;
+	  
+    @Mod.Instance(Reference.MOD_ID)
+    public static NP instance;
+
+    //@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
+    //public static IProxy proxy;
+
+    @Mod.EventHandler
+    public void preInit(FMLPreInitializationEvent event)
+    {
+    	 proxy.registerRenderThings();
+         GameRegistry.registerTileEntity(TileEntityTest1.class, "tileEntityTest1");
+    }
+
+    @Mod.EventHandler
+    public void init(FMLInitializationEvent event)
+    {
+        
+    }
+
+    @Mod.EventHandler
+    public void postInit(FMLPostInitializationEvent event)
+    {
+       
+    }
+}

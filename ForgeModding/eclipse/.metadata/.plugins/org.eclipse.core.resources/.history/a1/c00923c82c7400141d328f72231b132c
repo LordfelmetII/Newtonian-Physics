@@ -1,0 +1,12 @@
+package com.Lordfelmet.Client;
+
+import com.Lordfelmet.NP.TileEntities.TileEntityTest1;
+import com.Lordfelmet.NP.TileEntities.Renderers.TileEntityTest1Renderer;
+
+import cpw.mods.fml.client.registry.ClientRegistry;
+
+public class CommonProxy {
+	 public void registerRenderThings() {
+         ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTest1.class, new TileEntityTest1Renderer());
+ }
+}
