@@ -1,2 +1,13 @@
-[18:19:34] [main/INFO]: Setting user: Player937
-[18:19:36] [Client thread/INFO]: LWJGL Version: 2.9.1
+[18:41:36] [main/INFO]: Setting user: Player562
+[18:41:37] [Client thread/INFO]: LWJGL Version: 2.9.1
+[18:41:42] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Newtonian Physics
+[18:41:42] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[18:41:42] [Sound Library Loader/INFO]: Sound engine started
+[18:41:44] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[18:41:44] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[18:41:44] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Newtonian Physics
+[18:41:44] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[18:41:44] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[18:41:45] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[18:41:46] [Sound Library Loader/INFO]: Sound engine started
+[18:42:09] [Client thread/INFO]: Stopping!

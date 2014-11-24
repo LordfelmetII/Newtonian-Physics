@@ -1,0 +1,16 @@
+[
+{
+  "modid": "NP0.0",
+  "name": "Newtonian-Physics",
+  "description": "Adds minecraft to physics",
+  "version": "0.0"doesn't exist yet"",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["LordFelmet"],
+  "credits": "noone yet",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

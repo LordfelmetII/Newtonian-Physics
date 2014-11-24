@@ -1,16 +1,21 @@
 [
 {
-  "modid": "Newtonian-Physics",
-  "name": "Newtonian-Physics",
-  "description": "Adds minecraft to physics",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
-  "url": "",
+  "modid": "NP0.0",
+  "name": "Newtonian Physics",
+  "description": "Use Physics to do things! Clone your friends! Negate your enemies(with antimatter of course)! Create infinite energy with cold fusion! \n\nFriction's Not Real - an actual Physics Teacher",
+  "version": "Beta",
+  "mcversion": "${minecraft_version}",
+  "url": "I don't have one!",
   "updateUrl": "",
-  "authorList": ["LordFelmet"],
-  "credits": "LordFelmet",
+  "authorList": [
+    "Lordfelmet"
+  ],
+  "credits": "",
   "logoFile": "",
-  "screenshots": [],
-  "dependencies": []
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
 }
 ]

@@ -1,0 +1,21 @@
+[
+{
+  "modid": "NP0.0",
+  "name": "Newtonian Physics",
+  "description": "Physaaaaacs",
+  "version": "${mod_version}",
+  "mcversion": "${minecraft_version}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [
+    "Lordfelmet"
+  ],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]

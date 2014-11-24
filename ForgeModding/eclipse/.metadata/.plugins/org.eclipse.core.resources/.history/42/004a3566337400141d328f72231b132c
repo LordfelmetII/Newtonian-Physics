@@ -1,0 +1,21 @@
+[
+{
+  "modid": "NP0.0",
+  "name": "Newtonian Physics",
+  "description": "Use Physics to do things! Clone your friends! Negate your enemies(with antimatter of course)! Create infinite energy with cold fusion",
+  "version": "Beta",
+  "mcversion": "${minecraft_version}",
+  "url": "I don't have one!",
+  "updateUrl": "",
+  "authorList": [
+    "Lordfelmet"
+  ],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]

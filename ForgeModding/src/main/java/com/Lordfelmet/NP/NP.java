@@ -1,7 +1,6 @@
 package com.Lordfelmet.NP;
 
-
-import java.reference.Reference;
+import com.Lordfelmet.NP.java.reference.*;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockContainer;
