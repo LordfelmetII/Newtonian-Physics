@@ -14,14 +14,15 @@ import cpw.mods.fml.common.registry.GameRegistry;
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
 public class NP
 {
-	//  @SidedProxy(clientSide="com.Lordfelmet.Proxies.ClientProxy", serverSide="com.Lordfelmet.Proxies.CommonProxy")
+
     
 	  
     @Mod.Instance(Reference.MOD_ID)
     public static NP instance;
 
-    //@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
-    //public static IProxy proxy;
+   @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
+    public static IProxy proxy;
+    
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
@@ -32,10 +33,7 @@ public class NP
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
-    	//Block test1 = new Test1();
-    	//proxy.registerRenderThings();
-        //GameRegistry.registerTileEntity(TileEntityTest1.class, test1.getLocalizedName());
-        //GameRegistry.registerBlock(test1, test1.getLocalizedName());
+    
     }
 
     @Mod.EventHandler
