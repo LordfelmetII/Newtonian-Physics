@@ -1,5 +1,6 @@
-package com.Lordfelmet.NP.Proxy;
+package com.Lordfelmet.NP.proxy;
 
-public interface IProxy {
+public interface IProxy 
+{
 
 }

@@ -1,6 +1,8 @@
 package com.Lordfelmet.NP;
 
-import com.Lordfelmet.NP.java.reference.*;
+import com.Lordfelmet.NP.config.ConfigHandler;
+import com.Lordfelmet.NP.proxy.IProxy;
+import com.Lordfelmet.NP.reference.*;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockContainer;
@@ -20,14 +22,14 @@ public class NP
     @Mod.Instance(Reference.MOD_ID)
     public static NP instance;
 
-   @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
+    @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
     public static IProxy proxy;
     
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-    	 
+    	 ConfigHandler.init(event.getSuggestedConfigurationFile());
     }
 
     @Mod.EventHandler

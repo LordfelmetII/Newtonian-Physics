@@ -1,13 +1,13 @@
-[18:41:36] [main/INFO]: Setting user: Player562
-[18:41:37] [Client thread/INFO]: LWJGL Version: 2.9.1
-[18:41:42] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Newtonian Physics
-[18:41:42] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
-[18:41:42] [Sound Library Loader/INFO]: Sound engine started
-[18:41:44] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[18:41:44] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[18:41:44] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Newtonian Physics
-[18:41:44] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
-[18:41:44] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[18:41:45] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[18:41:46] [Sound Library Loader/INFO]: Sound engine started
-[18:42:09] [Client thread/INFO]: Stopping!
+[11:32:08] [main/INFO]: Setting user: Player437
+[11:32:09] [Client thread/INFO]: LWJGL Version: 2.9.1
+[11:32:14] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Newtonian Physics
+[11:32:14] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[11:32:15] [Sound Library Loader/INFO]: Sound engine started
+[11:32:17] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[11:32:17] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[11:32:17] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Newtonian Physics
+[11:32:17] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[11:32:17] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[11:32:17] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[11:32:18] [Sound Library Loader/INFO]: Sound engine started
+[11:32:22] [Client thread/INFO]: Stopping!

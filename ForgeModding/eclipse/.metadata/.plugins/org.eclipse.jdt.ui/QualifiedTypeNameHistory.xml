@@ -1,2 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="net.minecraft.creativetab.CreativeTabs"/>
+<fullyQualifiedTypeName name="net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.Entity"/>
+<fullyQualifiedTypeName name="com.Lordfelmet.NP.TileEntities.Models.TileEntityTest1Model"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.client.registry.ClientRegistry"/>
+<fullyQualifiedTypeName name="com.Lordfelmet.NP.TileEntities.Renderers.TileEntityTest1Renderer"/>
+<fullyQualifiedTypeName name="com.Lordfelmet.NP.TileEntities.TileEntityTest1"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.registry.GameRegistry"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.SidedProxy"/>
+<fullyQualifiedTypeName name="com.Lordfelmet.Client.CommonProxy"/>
+<fullyQualifiedTypeName name="com.Lordfelmet.Client.ClientProxy"/>
+<fullyQualifiedTypeName name="com.Lordfelmet.NP.TileEntities.Test1"/>
+<fullyQualifiedTypeName name="net.minecraft.block.BlockContainer"/>
+<fullyQualifiedTypeName name="com.Lordfelmet.NP.Proxy.IProxy"/>
+<fullyQualifiedTypeName name="net.minecraft.block.Block"/>
+</qualifiedTypeNameHistroy>

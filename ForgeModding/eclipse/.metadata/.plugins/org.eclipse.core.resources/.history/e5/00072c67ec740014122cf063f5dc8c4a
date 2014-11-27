@@ -1,0 +1,5 @@
+package com.Lordfelmet.NP.proxy;
+
+public class ServerProxy implements IProxy{
+
+}

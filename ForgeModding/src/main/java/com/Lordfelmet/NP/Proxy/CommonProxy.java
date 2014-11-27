@@ -1,5 +1,6 @@
-package com.Lordfelmet.NP.Proxy;
+package com.Lordfelmet.NP.proxy;
 
-public class CommonProxy implements IProxy{
+public abstract class CommonProxy implements IProxy
+{
 
 }
