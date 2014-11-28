@@ -1,17 +1,17 @@
 package com.Lordfelmet.NP;
 
 import com.Lordfelmet.NP.config.ConfigHandler;
+import com.Lordfelmet.NP.init.ModItems;
 import com.Lordfelmet.NP.proxy.IProxy;
-import com.Lordfelmet.NP.reference.*;
+import com.Lordfelmet.NP.reference.Reference;
+import com.Lordfelmet.NP.utility.LogHelper;
 
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockContainer;
+import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import cpw.mods.fml.common.registry.GameRegistry;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
 public class NP
@@ -29,18 +29,28 @@ public class NP
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-    	 ConfigHandler.init(event.getSuggestedConfigurationFile());
+    	ConfigHandler.init(event.getSuggestedConfigurationFile());
+        FMLCommonHandler.instance().bus().register(new ConfigHandler());
+
+        ModItems.init();
+
+        LogHelper.info("Pre Initialization Complete!");
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
     
+    	
+    	
+    	LogHelper.info("Initialization Complete!");
     }
 
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event)
     {
        
+    	
+    	LogHelper.info("Post Initialization Complete!");
     }
 }

@@ -1,0 +1,7 @@
+package com.Lordfelmet.NP.item;
+
+import net.minecraft.item.Item;
+
+public class ItemNP extends Item{
+
+}

@@ -1,0 +1,9 @@
+package com.Lordfelmet.NP.item;
+
+public class ItemMechanicalPencil extends ItemNP
+{
+	public ItemMechanicalPencil(){
+		super();
+		setUnlocalizedName("Mechanical Pencil");
+	}
+}

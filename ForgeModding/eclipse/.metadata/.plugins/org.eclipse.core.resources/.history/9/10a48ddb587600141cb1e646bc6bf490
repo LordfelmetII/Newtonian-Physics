@@ -1,0 +1,8 @@
+package com.Lordfelmet.NP.item;
+
+import net.minecraft.item.Item;
+
+public class ItemMechanicalPencil extends ItemNP
+{
+
+}
